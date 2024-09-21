@@ -1,9 +1,3 @@
-# Real-Time-Chat-Application
-
-Here's a detailed description you can add to your **README.md** file for GitHub:
-
----
-
 # Real-Time Chat Application
 
 ## Introduction
@@ -18,7 +12,7 @@ This project is a full-stack real-time chat application that allows users to com
 - **Responsive Design**: The application is fully responsive, providing an optimal experience across different devices.
 
 ## Technologies Used
-- **Frontend**: React.js, HTML, CSS (or Bootstrap/Tailwind for styling), Axios for API calls, Socket.io client for real-time communication.
+- **Frontend**: React.js, HTML, CSS , Axios for API calls, Socket.io client for real-time communication.
 - **Backend**: Node.js, Express.js for API endpoints and handling requests, Socket.io for WebSocket connections, JWT for authentication.
 - **Database**: MongoDB with Mongoose ORM for storing user data, messages, and chat rooms.
 - **Real-Time Communication**: Socket.io for handling real-time, bidirectional communication between clients and the server.
@@ -46,22 +40,22 @@ This project is a full-stack real-time chat application that allows users to com
 1. Clone the repository:
    ```bash
    git clone https://github.com/itsaman080/Real-Time-Chat-Application.git
-   cd chat-app-react-nodejs
+   cd Real-Time-Chat-Application
    ```
 2. Install dependencies:
    ```bash
+   cd server
    npm install
-   cd client
-   npm install
-   cd ..
+   cd ../
    ```
 3. Run the server:
    ```bash
-   npm run dev
+   npm start
    ```
 4. In a separate terminal, run the React client:
    ```bash
    cd client
+   npm install
    npm start
    ```
 
@@ -81,4 +75,3 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ---
 
-This detailed description covers the purpose, features, technology stack, installation process, and future improvements, giving a clear overview of your project for anyone viewing it on GitHub.
